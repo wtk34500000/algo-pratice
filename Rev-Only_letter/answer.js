@@ -1,4 +1,5 @@
 var reverseOnlyLetters = function(S) {
+    
     const letter=[]
     let result=""
     for(let i =0; i<S.length; i ++){
@@ -14,6 +15,6 @@ var reverseOnlyLetters = function(S) {
             result+=S[i]
         }
     }
-    
+
     return result;
 };
