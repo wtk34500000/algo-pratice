@@ -4,6 +4,7 @@ console.log(map([1,2,3], addTwo))
 console.log(mapWith([1,2,3], addTwo))
 console.log(forEach([1,2,3], addTwo))
 console.log(reduce([1,2,3], add, 0))
+
 // Challenge 1
 function addTwo(num) {
  return num+2;
@@ -31,7 +32,7 @@ function add(a, b) {
 
 // Challenge 3
 function map(array, callback) {
-return array.map(n => callback(n))
+    return array.map(n => callback(n))
 }
 
 // console.log(map([1, 2, 3], addTwo));
@@ -40,7 +41,7 @@ return array.map(n => callback(n))
 // Challenge 4
 function forEach(array, callback) {
   const result=[]
-array.forEach(n => result.push(callback(n)))
+  array.forEach(n => result.push(callback(n)))
   return result;
 }
 
