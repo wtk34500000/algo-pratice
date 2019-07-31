@@ -1,4 +1,5 @@
 var intersection = function(nums1, nums2) {
+    
     let result=[]
     
     for(let i = 0; i < nums2.length; i++){
