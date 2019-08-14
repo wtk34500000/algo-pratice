@@ -9,6 +9,7 @@
  * }
  *
  */
+
 function insertNodeAtPosition(head, data, position) {
     let newNode = new SinglyLinkedListNode();
     newNode.data = data;
